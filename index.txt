@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Empresa - Sitio Oficial</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background: #f0f0f0; 
+        }
+        .header { 
+            background: #2c3e50; 
+            color: white; 
+            padding: 20px; 
+            text-align: center; 
+        }
+        .nav { 
+            background: #34495e; 
+            padding: 15px; 
+            text-align: center; 
+        }
+        .nav a { 
+            color: white; 
+            text-decoration: none; 
+            margin: 0 15px; 
+            font-weight: bold; 
+        }
+        .container { 
+            max-width: 1000px; 
+            margin: 20px auto; 
+            padding: 20px; 
+        }
+        .section { 
+            background: white; 
+            margin: 20px 0; 
+            padding: 30px; 
+            border-radius: 8px; 
+        }
+        h2 { 
+            color: #2c3e50; 
+            border-bottom: 2px solid #3498db; 
+            padding-bottom: 10px; 
+        }
+        .producto { 
+            border: 1px solid #ddd; 
+            padding: 15px; 
+            margin: 10px 0; 
+            border-radius: 5px; 
+        }
+        .redes { 
+            text-align: center; 
+            margin: 20px 0; 
+        }
+        .redes a { 
+            display: inline-block; 
+            background: #3498db; 
+            color: white; 
+            padding: 10px 20px; 
+            margin: 5px; 
+            text-decoration: none; 
+            border-radius: 5px; 
+        }
+        .footer { 
+            background: #2c3e50; 
+            color: white; 
+            text-align: center; 
+            padding: 20px; 
+            margin-top: 30px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Mi Empresa</h1>
+        <p>Soluciones de calidad para tu negocio</p>
+    </div>
+
+    <div class="nav">
+        <a href="#quienes-somos">¿Quiénes Somos?</a>
+        <a href="#productos">Productos</a>
+        <a href="#horarios">Horarios</a>
+        <a href="#redes">Redes Sociales</a>
+    </div>
+
+    <div class="container">
+        <div id="quienes-somos" class="section">
+            <h2>¿Quiénes Somos?</h2>
+            <p>Empresa líder con más de 10 años de experiencia en el mercado. Nos especializamos en brindar soluciones innovadoras y de calidad para nuestros clientes.</p>
+            <p><strong>Misión:</strong> Ofrecer productos y servicios que superen las expectativas de nuestros clientes.</p>
+            <p><strong>Visión:</strong> Ser referentes en nuestro sector a nivel nacional.</p>
+        </div>
+
+        <div id="productos" class="section">
+            <h2>Nuestros Productos</h2>
+            <div class="producto">
+                <h3>Producto Premium - $199</h3>
+                <p>Solución completa con todas las características avanzadas y soporte prioritario.</p>
+            </div>
+            <div class="producto">
+                <h3>Producto Estándar - $99</h3>
+                <p>Perfecto para medianas empresas, balance entre funcionalidad y precio.</p>
+            </div>
+            <div class="producto">
+                <h3>Producto Básico - $49</h3>
+                <p>Ideal para emprendedores y pequeñas empresas que comienzan.</p>
+            </div>
+        </div>
+
+        <div id="horarios" class="section">
+            <h2>Horarios de Atención</h2>
+            <p><strong>Lunes a Viernes:</strong> 9:00 AM - 6:00 PM</p>
+            <p><strong>Sábados:</strong> 9:00 AM - 2:00 PM</p>
+            <p><strong>Domingos:</strong> Cerrado</p>
+            <p><strong>Teléfono:</strong> +1 234 567 8900</p>
+            <p><strong>Email:</strong> info@miempresa.com</p>
+        </div>
+
+        <div id="redes" class="section">
+            <h2>Nuestras Redes Sociales</h2>
+            <p>Síguenos para estar al día con nuestras promociones y noticias:</p>
+            <div class="redes">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">YouTube</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Mi Empresa. Todos los derechos reservados.</p>
+    </div>
+</body>
+</html>
